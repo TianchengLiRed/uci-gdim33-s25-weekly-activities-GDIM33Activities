@@ -10,7 +10,10 @@
 3. one of the LA really like multiplayer FPS cooperation game, multiplayer pve game like Deep Rock and GFTO. We have similar taste that both of us are interested in shooter game, which inspired me to create a tactical game, even though is about ghost hunting but it is more similar with tactical shooter game. Also we both interested in cooperation content and PVE, I think that tactical games can maximize the potential for cooperation just like Divinity or Baldur's gate, It is another form of cooperation.
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+
+
+![03d61bea0e499eb1a3aaca882985cbe2](https://github.com/user-attachments/assets/a34636a4-791b-4f8b-87f9-a62ee900f9af)
+
 
 
 ## W2
