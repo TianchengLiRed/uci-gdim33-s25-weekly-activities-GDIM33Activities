@@ -23,7 +23,7 @@
 
 ### Activity 2
 
-1.
+1. I think store event name in to a scene variable is advantageous because I can get the clickWalrus through Get Variable node, instead of directly type the event name in to the node, even though you want to change the event name, you dont have to change every name in the visual scripting but just change the value in clickNpcEventName. Also stored it in to the Scene Variable enables you to invoke the same event across graphs in different GameObjects, people dont have to set target in the event node, it makes visual scripting easier.
 
 2. using debug.log() in the visual scripting can help me determine the exact location of bugs. For example,I added 2 debug.log in the function of click the walrus and state transition. When i testing my game i finds out that only debug.log  in the click function has been called but mnot the state transtition, so that i can locate the bug that is on the state transition and fix the bug that emerges because of the wrong event name and custom event on the transition has not been called. Its hard for visual scripting to navigate bugs through console, using Debug.log can help us locate the bug through a process of elimination.
 
