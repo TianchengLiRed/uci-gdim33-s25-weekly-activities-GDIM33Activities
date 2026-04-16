@@ -16,7 +16,7 @@
 
 
 
-## W2
-Write your W2 Devlog here.
+## W3
+### Activity 1
 
-Continue adding additional headers below this one for future weeks and future activities.
+<img width="1706" height="1279" alt="cc10b0104e48929806ff29542ee490ee" src="https://github.com/user-attachments/assets/0b7314e7-0668-4dc5-afc9-3a058d02c963" />
