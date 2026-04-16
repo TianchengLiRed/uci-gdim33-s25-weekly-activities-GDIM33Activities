@@ -25,7 +25,7 @@
 
 1.
 
-2.using debug.log() in the visual scripting can help me determine the exact location of bugs. For example,I added 2 debug.log in the function of click the walrus and state transition. When i testing my game i finds out that only debug.log  in the click function has been called but mnot the state transtition, so that i can locate the bug that is on the state transition and fix the bug that emerges because of the wrong event name and custom event on the transition has not been called. Its hard for visual scripting to navigate bugs through console, using Debug.log can help us locate the bug through a process of elimination.
+2. using debug.log() in the visual scripting can help me determine the exact location of bugs. For example,I added 2 debug.log in the function of click the walrus and state transition. When i testing my game i finds out that only debug.log  in the click function has been called but mnot the state transtition, so that i can locate the bug that is on the state transition and fix the bug that emerges because of the wrong event name and custom event on the transition has not been called. Its hard for visual scripting to navigate bugs through console, using Debug.log can help us locate the bug through a process of elimination.
 
 3. Set cursor is actually not relvant with my Vertical Slice. Because my game is a 3D Top-Down horror game. The game's camera angle actually remains constant,only move follow the players location. The game's camera perspective does not change in response to mouse movement. And most interactions are performed through mouse clicks.
 
