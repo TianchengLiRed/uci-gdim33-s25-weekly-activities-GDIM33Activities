@@ -30,3 +30,12 @@
 3. Set cursor is actually not relvant with my Vertical Slice. Because my game is a 3D Top-Down horror game. The game's camera angle actually remains constant,only move follow the players location. The game's camera perspective does not change in response to mouse movement. And most interactions are performed through mouse clicks.
 
 4. The concept of game state are highly relvant with my Vertical Slice. I can use it to organize different states of the ghost, change their appearance and behavior based on different conditions, keep mutually exclusive and avoid conflict between differnt states. For exmaple the ghost has different states based on players location, if player in the ghost detect range, ghost should change their random movement behavior of idle state to chasing, etc. I can use game state to achieve those kind of transition between states, different appearances and behaviors.
+
+## W4
+### Activity 1
+
+playtest goal: 
+1. testing the feature of pathfinding for different move range.
+2. testing the aim in shoot feature to see if am function is accurate.
+3. the automatic turn update is enough for people to think and act.
+4. testing if isometric is suitable for mechanics( point to move and aim function)
