@@ -35,7 +35,7 @@
 ### Activity 1
 playable: 
 
-The basic movement, dialogue with NPC and interact with certain interactive objects outside of the station(first scene), 
+The basic movement, dialogue with NPC (branching choice) and interact with certain interactive objects outside of the station(first scene), 
 
 The warchess movement base on grid and pathfinding by click the location of the map, shooting and aiming base on postition of the mouse.
 
