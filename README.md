@@ -33,16 +33,47 @@
 
 ## W4
 ### Activity 1
+playable: 
+
+The basic movement, dialogue with NPC (branching choice) and interact with certain interactive objects outside of the station(first scene), 
+
+The warchess movement base on grid and pathfinding by click the location of the map, shooting and aiming base on postition of the mouse.
+
+MainMenu Ui base interaction.
+
 
 playtest goal: 
 1. testing the feature of pathfinding for different move range.
+  
 2. testing the aim in shoot feature to see if am function is accurate.
+  
 3. the automatic turn update is enough for people to think and act.
+   
 4. testing if isometric is suitable for mechanics( point to move and aim function)
 
 Members: Han Yang, Leo Abe, Jing Cheng, Tiancheng Li.
 
+Notes:
 NO frog models.
 basic code is cool, gameplay is nnot enough, not too much feeback for player, they dont understand what is going on
 people dont understand what to do because there is not hint for player what button they can click or what action they can perform.
 need more art assets, the aim system is werid, it doesnt really following the mouse(bug).
+
+### Activity 2
+
+1. writer could add more dialogue without add any code，you only need to add more line and reply option in the scriptableobjects that you created, because the whole dialogue system is based on scriptableobject in your current line, instantiate buttons base on numbers of your reply option in your current line and move to next line base on your other scriptableobject in SO in current line corresponding to the replyOption. When dialogue move to the new line, it will trigger this event and repeat this step. So your dialogue system will be change every time you move in to a new dialogue line based  on your new SO in new dialogue line So you just need to add more information in your scriptableobject the dialogue system will show your dialogue based on dialogue scriptableobject.
+
+2. There's no actual limit of the number of the dialogue node you code create, but based on the computer performance， the more dialogue node in the game, will consume more computer resources, so in order to make sure the game run smoothly, that might be one of the limit of  the number of the dialogue.
+
+3. Regenerate Node is how unity go through every C# code that i create in the project and update new nodes corresponding codes that i created, so you can  use it in the Graph.
+
+screenshot for bonus credit, sprite on the image will change base on assigned sprite in the corresponding 
+<img width="764" height="435" alt="截屏2026-04-22 19 31 03" src="https://github.com/user-attachments/assets/4cd8bdb8-b74b-4f85-af69-dfedca074d20" />
+<img width="595" height="449" alt="截屏2026-04-22 19 31 13" src="https://github.com/user-attachments/assets/d1561d50-cb08-45d4-a02d-a3496fa0fd49" />
+<img width="459" height="291" alt="截屏2026-04-22 19 31 35" src="https://github.com/user-attachments/assets/32cd1140-5d0e-4815-9205-fcde4ad0c920" />
+<img width="488" height="306" alt="截屏2026-04-22 19 31 45" src="https://github.com/user-attachments/assets/f2ba1fec-f71f-4986-afaf-ea7a56a7b5d0" />
+<img width="444" height="283" alt="截屏2026-04-22 19 31 48" src="https://github.com/user-attachments/assets/403a892a-5e0c-4203-ba23-8d6fdcf4ef10" />
+dialogue node
+<img width="899" height="422" alt="截屏2026-04-22 19 29 06" src="https://github.com/user-attachments/assets/c913ba86-13a5-49b6-859d-3a4943d74aaa" />
+<img width="603" height="502" alt="截屏2026-04-22 19 29 48" src="https://github.com/user-attachments/assets/ff114f12-d74e-4ec1-a9ae-08507c67a76b" />
+<img width="896" height="520" alt="截屏2026-04-22 19 50 02" src="https://github.com/user-attachments/assets/2838bf80-03ac-49c3-aaf2-6d8369ea29c7" />
