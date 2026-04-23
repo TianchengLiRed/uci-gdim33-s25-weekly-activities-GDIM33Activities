@@ -33,6 +33,14 @@
 
 ## W4
 ### Activity 1
+playable: 
+
+The basic movement, dialogue with NPC and interact with certain interactive objects outside of the station(first scene), 
+
+The warchess movement base on grid and pathfinding by click the location of the map, shooting and aiming base on postition of the mouse.
+
+MainMenu Ui base interaction.
+
 
 playtest goal: 
 1. testing the feature of pathfinding for different move range.
