@@ -39,3 +39,10 @@ playtest goal:
 2. testing the aim in shoot feature to see if am function is accurate.
 3. the automatic turn update is enough for people to think and act.
 4. testing if isometric is suitable for mechanics( point to move and aim function)
+
+Members: Han Yang, Leo Abe, Jing Cheng, Tiancheng Li.
+
+NO frog models.
+basic code is cool, gameplay is nnot enough, not too much feeback for player, they dont understand what is going on
+people dont understand what to do because there is not hint for player what button they can click or what action they can perform.
+need more art assets, the aim system is werid, it doesnt really following the mouse(bug).
