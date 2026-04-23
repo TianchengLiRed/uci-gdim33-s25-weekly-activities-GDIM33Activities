@@ -53,6 +53,7 @@ need more art assets, the aim system is werid, it doesnt really following the mo
 ### Activity 2
 
 1.writer could add more dialogue without add any code，you only need to add more line and reply option in the scriptableobjects that you created, because the whole dialogue system is based on scriptableobject in your current line, instantiate buttons base on numbers of your reply option in your current line and move to next line base on your other scriptableobject in SO in current line corresponding to the replyOption. When dialogue move to the new line, it will trigger this event and repeat this step. So your dialogue system will be change every time you move in to a new dialogue line based  on your new SO in new dialogue line So you just need to add more information in your scriptableobject the dialogue system will show your dialogue based on dialogue scriptableobject.
+
 2. There's no actual limit of the number of the dialogue node you code create, but based on the computer performance， the more dialogue node in the game, will consume more computer resources, so in order to make sure the game run smoothly, that might be one of the limit of  the number of the dialogue.
 
 3. Regenerate Node is how unity go through every C# code that i create in the project and update new nodes corresponding codes that i created, so you can  use it in the Graph.
