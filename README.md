@@ -100,4 +100,4 @@ Detailed steps:
 
 ### Activity 2
 
-Description of Accomplished: Add a new range detection to detect specific interact objects, objects highlight function. Add a new state to control the interact action, use state machine to ensure the action exclusively each turn. Implement the feature to use click interact with object. Implment the feature to click on Object and use object to change edit the navmesh and block the ghost's path
+Description of Accomplishment: Add a new range detection to detect specific interact objects, objects highlight function. Add a new state to control the interact action, use state machine to ensure the action exclusively each turn. Implement the feature to use click interact with object. Implment the feature to click on Object and use object to change edit the navmesh and block the ghost's path.
