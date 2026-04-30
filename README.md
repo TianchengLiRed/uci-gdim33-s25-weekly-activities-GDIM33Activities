@@ -83,11 +83,15 @@ dialogue node
 ### Activity 1
 
 This system will allow player interact with specific objects and put a object to block the ghost's path, influence its movement towards player by editing navmesh.
+
 Basic steps: 
+
 1.  the basic object range detection and intercation
 2.  create a specific object control
 3.  make the block able to influence the current navmesh map and change ghost's path navigation.
-Detialed steps:
+
+Detailed steps:
+
 1. Create a empty that stores Navmeshsurface, set the specific layer choice to generate navmesh and bake the Navmesh map. Add Modifier to some objects on the map. Run the game to check the Navmesh generated as the expected.
 2. Create object with "Interactive" Tag, add dectection method to the Update in the AgentController to check every collider in the player's range if theres any interactive object with Interactive Tag.
 3. Create a interaction method in the AgentController, Add a new interact state to current enum.Every time player press E change the states to the interact states. mouse select the specific object you want to interact with by using Raycast and activate and put on the ground , run the game to test the detection and interaction method works well.
