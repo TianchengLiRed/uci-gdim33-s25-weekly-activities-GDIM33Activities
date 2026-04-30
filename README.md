@@ -98,3 +98,6 @@ Detailed steps:
 4. Add a NavmeshObstacle component in the interactive objects, and unable it. create a interactive script to control the enable of the NavmeshhObstacle component every time player interact with them. (set specific animation if i want) run the game and stop after NavmeshObstacle is enable to check the current navmesh map.
 5. integrate this feature to the turn system, everytime player choose to use this action by calling PlayerFinishedAction() at the end to update to new turn, to make sure only one action each turn. run the game to see if the turn is changed after action.
 
+### Activity 2
+
+Description of Accomplished: Add a new range detection to detect specific interact objects, objects highlight function. Add a new state to control the interact action, use state machine to ensure the action exclusively each turn. Implement the feature to use click interact with object. Implment the feature to click on Object and use object to change edit the navmesh and block the ghost's path
