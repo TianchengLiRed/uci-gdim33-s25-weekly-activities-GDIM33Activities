@@ -77,3 +77,20 @@ dialogue node
 <img width="899" height="422" alt="截屏2026-04-22 19 29 06" src="https://github.com/user-attachments/assets/c913ba86-13a5-49b6-859d-3a4943d74aaa" />
 <img width="603" height="502" alt="截屏2026-04-22 19 29 48" src="https://github.com/user-attachments/assets/ff114f12-d74e-4ec1-a9ae-08507c67a76b" />
 <img width="896" height="520" alt="截屏2026-04-22 19 50 02" src="https://github.com/user-attachments/assets/2838bf80-03ac-49c3-aaf2-6d8369ea29c7" />
+
+## W5
+
+### Activity 1
+
+This system will allow player interact with specific objects and put a object to block the ghost's path, influence its movement towards player by editing navmesh.
+Basic steps: 
+1.  the basic object range detection and intercation
+2.  create a specific object control
+3.  make the block able to influence the current navmesh map and change ghost's path navigation.
+Detialed steps:
+1. Create a empty that stores Navmeshsurface, set the specific layer choice to generate navmesh and bake the Navmesh map. Add Modifier to some objects on the map. Run the game to check the Navmesh generated as the expected.
+2. Create object with "Interactive" Tag, add dectection method to the Update in the AgentController to check every collider in the player's range if theres any interactive object with Interactive Tag.
+3. Create a interaction method in the AgentController, Add a new interact state to current enum.Every time player press E change the states to the interact states. mouse select the specific object you want to interact with by using Raycast and activate and put on the ground , run the game to test the detection and interaction method works well.
+4. Add a NavmeshObstacle component in the interactive objects, and unable it. create a interactive script to control the enable of the NavmeshhObstacle component every time player interact with them. (set specific animation if i want) run the game and stop after NavmeshObstacle is enable to check the current navmesh map.
+5. integrate this feature to the turn system, everytime player choose to use this action by calling PlayerFinishedAction() at the end to update to new turn, to make sure only one action each turn. run the game to see if the turn is changed after action.
+
