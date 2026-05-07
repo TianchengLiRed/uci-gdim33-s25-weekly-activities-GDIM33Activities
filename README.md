@@ -113,7 +113,8 @@ NEW:
 5. Obstacle arragement in Hauntedhouse scene, Update of Navmesh,
 6. visualization UI reminder of keys every time turn start,
 
-Link:[Playtest Itch Page](https://tianchenglired.itch.io/sameghostnewplaytest)
+Link: [Playtest Itch Page](https://tianchenglired.itch.io/sameghostnewplaytest)
+
 Goals: 
 1. Test whether visualizations are helpful for player to udnerstand what they could do in the hauntedhouse
 3. Test whether obstacle arrangement could normally inlfuence both ghost's and
@@ -121,7 +122,8 @@ Goals:
 5. Test whether player can understand the task
 6. Test whether block mechanics are bug free, and satsified the mechanics i expected
 
-note: 1. people don't know how to control after they enter the hauntedhouse, the previous control system was abandoned when player entered the house,
+note:
+1. people don't know how to control after they enter the hauntedhouse, the previous control system was abandoned when player entered the house,
 2. more visualization of information in the game like the remained time, UI reminders of ghost's position and status and hint of how to control and move the player.
 3. the game need more polished UI to understand their representation.
 4. the game need better room design.
