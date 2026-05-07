@@ -77,3 +77,55 @@ dialogue node
 <img width="899" height="422" alt="截屏2026-04-22 19 29 06" src="https://github.com/user-attachments/assets/c913ba86-13a5-49b6-859d-3a4943d74aaa" />
 <img width="603" height="502" alt="截屏2026-04-22 19 29 48" src="https://github.com/user-attachments/assets/ff114f12-d74e-4ec1-a9ae-08507c67a76b" />
 <img width="896" height="520" alt="截屏2026-04-22 19 50 02" src="https://github.com/user-attachments/assets/2838bf80-03ac-49c3-aaf2-6d8369ea29c7" />
+
+## W5
+
+### Activity 1
+
+This system will allow player interact with specific objects and put a object to block the ghost's path, influence its movement towards player by editing navmesh.
+
+Basic steps: 
+
+1.  the basic object range detection and intercation
+2.  create a specific object control
+3.  make the block able to influence the current navmesh map and change ghost's path navigation.
+
+Detailed steps:
+
+1. Create a empty that stores Navmeshsurface, set the specific layer choice to generate navmesh and bake the Navmesh map. Add Modifier to some objects on the map. Run the game to check the Navmesh generated as the expected.
+2. Create object with "Interactive" Tag, add dectection method to the Update in the AgentController to check every collider in the player's range if theres any interactive object with Interactive Tag.
+3. Create a interaction method in the AgentController, Add a new interact state to current enum.Every time player press E change the states to the interact states. mouse select the specific object you want to interact with by using Raycast and activate and put on the ground , run the game to test the detection and interaction method works well.
+4. Add a NavmeshObstacle component in the interactive objects, and unable it. create a interactive script to control the enable of the NavmeshhObstacle component every time player interact with them. (set specific animation if i want) run the game and stop after NavmeshObstacle is enable to check the current navmesh map.
+5. integrate this feature to the turn system, everytime player choose to use this action by calling PlayerFinishedAction() at the end to update to new turn, to make sure only one action each turn. run the game to see if the turn is changed after action.
+
+### Activity 2
+
+Description of Accomplishment: Add a new range detection to detect specific interact objects, objects highlight function. Add a new state to control the interact action, use state machine to ensure the action exclusively each turn. Implement the feature to use click interact with object. Implment the feature to click on Object and use object to change edit the navmesh and block the ghost's path.
+
+## W6
+
+### Activity 1 
+NEW: 
+1. 1 new NPC with dialogue in the station scene,
+2. mechanics of block ghost path by interact with specific object,
+3. visualization of moving range,
+4. visualization of round count,
+5. Obstacle arragement in Hauntedhouse scene, Update of Navmesh,
+6. visualization UI reminder of keys every time turn start,
+
+Link: [Playtest Itch Page](https://tianchenglired.itch.io/sameghostnewplaytest)
+
+Goals: 
+1. Test whether visualizations are helpful for player to udnerstand what they could do in the hauntedhouse
+3. Test whether obstacle arrangement could normally inlfuence both ghost's and
+4. Test whether the pathfinding normally worked and bug free after Update the arrangement of the room
+5. Test whether player can understand the task
+6. Test whether block mechanics are bug free, and satsified the mechanics i expected
+
+note:
+1. people don't know how to control after they enter the hauntedhouse, the previous control system was abandoned when player entered the house,
+2. more visualization of information in the game like the remained time, UI reminders of ghost's position and status and hint of how to control and move the player.
+3. the game need more polished UI to understand their representation.
+4. the game need better room design.
+5. assgin more model in the game will make player easier to understand whats going on.
+6.Bug need to be fix when player running out of ammo the shoot line will keep floating on the space.
