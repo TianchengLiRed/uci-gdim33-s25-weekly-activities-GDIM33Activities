@@ -101,3 +101,22 @@ Detailed steps:
 ### Activity 2
 
 Description of Accomplishment: Add a new range detection to detect specific interact objects, objects highlight function. Add a new state to control the interact action, use state machine to ensure the action exclusively each turn. Implement the feature to use click interact with object. Implment the feature to click on Object and use object to change edit the navmesh and block the ghost's path.
+
+## W6
+
+### Activity 1 
+NEW: 
+1. 1 new NPC with dialogue in the station scene,
+2. mechanics of block ghost path by interact with specific object,
+3. visualization of moving range,
+4. visualization of round count,
+5. Obstacle arragement in Hauntedhouse scene, Update of Navmesh,
+6. visualization UI reminder of keys every time turn start,
+
+Link:[Playtest Itch Page](https://tianchenglired.itch.io/sameghostnewplaytest)
+Goals: 
+1. Test if visualizations are helpful for player to udnerstand what they could do in the hauntedhosue
+3. Test if obstacle arrangement could normally inlfuence both ghost's and
+4. Test the pathfinding normally worked and bug free after Update the arrangement of the room
+5. Test if player can understand the task
+6. Test if block mechanics are bug free, and satsified the mechanics i expected
