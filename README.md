@@ -129,3 +129,9 @@ note:
 4. the game need better room design.
 5. assgin more model in the game will make player easier to understand whats going on.
 6.Bug need to be fix when player running out of ammo the shoot line will keep floating on the space.
+
+### Activity 2
+1. Because multiply mode in the blend multiply correspond number in each Vector, and the RGB channel are normally store the color as 0.0-1.0, when two color vector multiply there will be two decimals less than or equals 1 that multiply together in each number in the vector and the result must less than or equals to previous value and the less value represent darker color in this color logic or doesn't change if one of their value is Vector(1.0,1.0,1.0).
+2. It will be more translucent, because Alpha just like color in RGB channel always store their value as 0.0-1.0, when use multiply to combine Alpha values there will be two decimals lees than or equals 1 that multiply together and the final value must be equals to or less than previous Alpha value, the less alpha value represent more transcluent, the smaller Alpha value makes the model more transcluent so it will be more transluent or does change if one of their value is 1.0.
+3. 
+4. it is interesting, I notice that In the Blend node, every kinds of mode such as overlay, multiply and darken are different specfic algorithm that uses math to manipulate with math, which shows it is possible to achieve those different effect based on code which must be complicated. It is interesting to combine different algorithm to try different effect, it is interesting and exciting.
