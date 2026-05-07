@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Line: 11111
   ReplyOptions: []
+  replySprite: {fileID: 21300000, guid: 5c4c140e77eb94df998d8f44c0044b08, type: 3}

@@ -20,4 +20,4 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: 7cf6311e90d784cf8bbe8cc6a420be5f, type: 2}
   - line: 4444
     nextNode: {fileID: 11400000, guid: e7af2a9a301424ec59179e7ea106a4b8, type: 2}
-  replySprite: {fileID: 0}
+  replySprite: {fileID: 21300000, guid: dc5765ae1826647f8880f56c157025e1, type: 3}
