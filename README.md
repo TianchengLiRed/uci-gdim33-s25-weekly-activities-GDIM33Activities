@@ -135,3 +135,18 @@ note:
 2. It will be more translucent, because Alpha just like color in RGB channel always store their value as 0.0-1.0, when use multiply to combine Alpha values there will be two decimals lees than or equals 1 that multiply together and the final value must be equals to or less than previous Alpha value, the less alpha value represent more transcluent, the smaller Alpha value makes the model more transcluent so it will be more transluent or does change if one of their value is 1.0.
 3. When we creating SamplingTexture2D the unity will automatically use the UV map of the model which is using this graph and they get this from GPU. The data of every model will send to the GPU. The data of the model and specific data on shader graph that applied to the material are processed in the GPU together, the graph will find the model that are using this shader graph from material and find the correspond model data and its UV map on GPU. Shader receive those model information from GPU and find the UV map of the model to create UV0 node.
 4. it is interesting, I notice that In the Blend node, every kinds of mode such as overlay, multiply and darken are different specfic algorithm that uses math to manipulate with math, which shows it is possible to achieve those different effect based on code which must be complicated. It is interesting to combine different algorithm to try different effect, it is interesting and exciting.
+
+## W6
+
+### Activity 2
+
+1. the data for the Vertex Color node come from shiba mesh itself, in the shiba mesh it stored bunch of information of the model, the node get its color data from the mesh.
+
+2. Because vertex color stored as data in each vertex in the mesh which means every vertex could store different color data, and the color of the faces are created by interpolate color data stored in the vertice of the faces. If color data in those vertices are different, interpolation will blended at the edges of different regions of color.
+3. 
+4. After we use NormalDebug shader, the shader will set different color based on surface normal. And i notice that there is one part is brighter but not smooth interpolated. 
+5. 
+6. Because it uses a specific logic to calculate the light effect, they calculate the angle between light direction and model's surface normal, smaller the angle, the brighter it is. But in the case in the activity, the direction of light and surface normal are opposite or almost opposite, which always create huge obtuse angle between these two direction and that makes faces on the model that facing the light darker and not faces not facing the light are brighter. Thats the error.
+7. Additive is more like lighten function in some art studio, it will transparent with a different function that change its color base on its background while transparenting so it would be brighter and more like a fire than Alpha mode.
+
+
