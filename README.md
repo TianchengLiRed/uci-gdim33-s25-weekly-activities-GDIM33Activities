@@ -141,12 +141,11 @@ note:
 ### Activity 2
 
 1. the data for the Vertex Color node come from shiba mesh itself, in the shiba mesh it stored bunch of information of the model, the node get its color data from the mesh.
-
 2. Because vertex color stored as data in each vertex in the mesh which means every vertex could store different color data, and the color of the faces are created by interpolate color data stored in the vertice of the faces. If color data in those vertices are different, interpolation will blended at the edges of different regions of color.
 3. Because texture is a image, you can set any kind of size for your texture image(8192 * 8192), so it its detail based on how big your image is. But vertex color is actually blending or interpolating very color stored in different vertices on the face, so its based on how detailed your model is, how many vertices you got. I think vertex color could be use on any place that need interpolated like ground, using this will reduce workload, that you don't have to draw them all and also optimize the game.
-5. After we use NormalDebug shader, the shader will set different color based on surface normal. And i notice that there is one part is brighter but not smooth interpolated. 
-6. 
-7. Because it uses a specific logic to calculate the light effect, they calculate the angle between light direction and model's surface normal, smaller the angle, the brighter it is. But in the case in the activity, the direction of light and surface normal are opposite or almost opposite, which always create huge obtuse angle between these two direction and that makes faces on the model that facing the light darker and not faces not facing the light are brighter. Thats the error.
-8. Additive is more like lighten function in some art studio, it will transparent with a different function that change its color base on its background while transparenting so it would be brighter and more like a fire than Alpha mode.
+4. After we use NormalDebug shader, the shader will set different color based on surface normal. And i notice that there is one part is brighter on the Shiba's back but not smooth interpolated. That represent its surface normal is not that smooth at that place, it is because the model is not smooth and this part is facing the other direciton so it shows brighter than other part.
+5. I think UVmap could be test based on the shader, 
+6. Because it uses a specific logic to calculate the light effect, they calculate the angle between light direction and model's surface normal, smaller the angle, the brighter it is. But in the case in the activity, the direction of light and surface normal are opposite or almost opposite, which always create huge obtuse angle between these two direction and that makes faces on the model that facing the light darker and not faces not facing the light are brighter. Thats the error.
+7. Additive is more like lighten function in some art studio, it will transparent with a different function that change its color base on its background while transparenting so it would be brighter and more like a fire than Alpha mode.
 
 
