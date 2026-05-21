@@ -178,8 +178,8 @@ need a tutorial level, people always unable to understand how to interact with t
 
 ### Activity 2
 
-1.1
+1.The pass called FullScreenPassRenderFeature, obviously from the name we can see that it represent the pass for our post-process effect which is also called full screen render feature. Other than that when you click on Draw Procedurals inside of this pass you can see the change of your post-process effect has been shown on the game scene, so i can clarify that this the pass associated with my post-process effect. 
 2.When the lerp value is set to 0.5, the game scene will look like it mix the original scene with the post-process effect, it looks kinda transparency. When the lerp value is set to 0, the game scene will look exact like what original scene looks like without this post-process effect. When the lerp value is set to 1, the game scene will look like the post-process effect is fully applied in the game screen without any transparency.
 3. I think the lerp value is represent the ratio that control how those two input values of post-process effect combine or mix each other, in this case, one of the input of lerp is same as original normal scene that without any effect, and another is value of that texture effect, so when you adjust the lerp value, you are adjust their mixing ratio, for example, when the it is 0.5, the algorithm should be like 0.5A + 0.5B, since one of the input are represent original scene, it will make lerp value similar with transparency ratio like alpha, and it will show same as answer in Q2.
-4.1
+4. From the graph of sin(time) i can see it y value is between -1 and 1, y value is the value input in the T in the lerp node which is accessible range is 0 to 1 so it can't process the y value of sin(time) between -1 to 0, but if we  use (sin(time)+1)/2, which made the value of y from -1 to 1 to 0 to 1 which means every y value of this algorithm could be used by lerp, and successfully achieve the smooth transition.
 
