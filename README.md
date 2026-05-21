@@ -169,7 +169,7 @@ Playtesting Goals:
 5. Test if the difficulty of the game is suitable, whether the ghost is to weak or less.
 6. Test if the game control is smooth.
 
-Feedback: 
+Playtest Notes: 
 put the model in it will be easier for player to understand what is going on,
 change the color of the ghost when it get hit,
 dialogue with commmander is confused, 
