@@ -168,3 +168,10 @@ Playtesting Goals:
 4. Test if player could understand the gameplay based on tutorial sheet.
 5. Test if the difficulty of the game is suitable, whether the ghost is to weak or less.
 6. Test if the game control is smooth.
+
+Feedback: 
+put the model in it will be easier for player to understand what is going on,
+change the color of the ghost when it get hit,
+dialogue with commmander is confused, 
+ammo UI is hard to noticed.
+need a tutorial level, people always unable to understand how to interact with the door and dont want to read tutorial sheet.
