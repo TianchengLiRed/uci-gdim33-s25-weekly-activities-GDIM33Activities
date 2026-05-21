@@ -148,4 +148,23 @@ note:
 6. Because it uses a specific logic to calculate the light effect, they calculate the angle between light direction and model's surface normal, smaller the angle, the brighter it is. But in the case in the activity, the direction of light and surface normal are opposite or almost opposite, which always create huge obtuse angle between these two direction and that makes faces on the model that facing the light darker and not faces not facing the light are brighter. Thats the error.
 7. Additive is more like lighten function in some art studio, it will transparent with a different function that change its color base on its background while transparenting so it would be brighter and more like a fire than Alpha mode.
 
+## W8
+### Activity 1 
 
+New: 
+
+1. Added a new text cutscene.
+2. Updated level arrangement.
+3. Created more art assets have been assigned to UIs.
+4. Implemented level selection function
+5. added more dialogue context, like cutscene texts.
+
+Link: [SameGhostPlaytest3](https://tianchenglired.itch.io/sameghostplaytest3)
+
+Playtesting Goals:
+1. Test if level selection working normally.
+2. Test if whole game progression is bug free.
+3. Test if player could understand the gameplay and final goal based on UI and in-game scene, able to finished a game.
+4. Test if player could understand the gameplay based on tutorial sheet.
+5. Test if the difficulty of the game is suitable, whether the ghost is to weak or less.
+6. Test if the game control is smooth.
