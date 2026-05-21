@@ -175,3 +175,13 @@ change the color of the ghost when it get hit,
 dialogue with commmander is confused, 
 ammo UI is hard to noticed.
 need a tutorial level, people always unable to understand how to interact with the door and dont want to read tutorial sheet.
+
+### Activity 2
+
+1.1
+2.When the lerp value is set to 0.5, the game scene will look like it mix the original scene with the post-process effect, it looks kinda transparency.
+When the lerp value is set to 0, the game scene will look exact like what original scene looks like without this post-process effect.
+When the lerp value is set to 1, the game scene will look like the post-process effect is fully applied in the game screen without any transparency.
+3.1
+4.1
+
