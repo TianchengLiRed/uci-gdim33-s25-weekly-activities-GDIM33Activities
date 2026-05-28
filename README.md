@@ -191,7 +191,10 @@ need a tutorial level, people always unable to understand how to interact with t
 
 Game: PEAK
 
-### Activity 2 
-
 1. The object inside your bag will highlighted will you control your mouse to hover it. We think its pretty similar with the effect from W8 activity. The graph implement by get its normal vector and use multiply to increase its size, so you can get outline that bigger than model and covered it, then it changes the color of the outline color to achieve outline effect. It uses a specific method to detect whether mouse is pointing at that object by checking raycast from the mouse and activate it when it is pointing at the object.
 2. Your model will  glowing when you are holding the gold bingbong statue. We think the shder are using fresnel effect that could make the model glowing, the shader will get the brightness of the character and multiply with fresnel and assign it to the model to make it brighter when holding it. The shader normaly is deactivated, they use a method to dectect whether the character is holding the statue, if they are holding set specific bool to true and shader will detect this bool activate its shader.
+
+### Activity 2
+<img width="678" height="407" alt="截屏2026-05-27 19 54 20" src="https://github.com/user-attachments/assets/fa6d2901-5d34-47ce-87d3-ad76f2189101" />
+
+implemented the glowing effect on the ghost, the glowing color will change in time from red to green.
