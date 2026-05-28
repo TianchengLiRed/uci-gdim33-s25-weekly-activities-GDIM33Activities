@@ -186,3 +186,12 @@ need a tutorial level, people always unable to understand how to interact with t
   
 4. From the graph of sin(time) i can see it y value is between -1 and 1, y value is the value input in the T in the lerp node which is accessible range is 0 to 1 so it can't process the y value of sin(time) between -1 to 0, but if we  use (sin(time)+1)/2, which made the value of y from -1 to 1 to 0 to 1 which means every y value of this algorithm could be used by lerp, and successfully achieve the smooth transition.
 
+## W9
+### Activity 1 
+
+Game: PEAK
+
+### Activity 2 
+
+1. The object inside your bag will highlighted will you control your mouse to hover it. We think its pretty similar with the effect from W8 activity. The graph implement by get its normal vector and use multiply to increase its size, so you can get outline that bigger than model and covered it, then it changes the color of the outline color to achieve outline effect. It uses a specific method to detect whether mouse is pointing at that object by checking raycast from the mouse and activate it when it is pointing at the object.
+2. Your model will  glowing when you are holding the gold bingbong statue. We think the shder are using fresnel effect that could make the model glowing, the shader will get the brightness of the character and multiply with fresnel and assign it to the model to make it brighter when holding it. The shader normaly is deactivated, they use a method to dectect whether the character is holding the statue, if they are holding set specific bool to true and shader will detect this bool activate its shader.
