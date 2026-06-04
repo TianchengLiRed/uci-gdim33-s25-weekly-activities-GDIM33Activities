@@ -222,6 +222,9 @@ Goals:
 2. test whether ghosts blood visualization works normally
 3. test whether each level are bugs free and without any collider problems
 4. test whether player can understand the whole game progression and game loop based on the tutorial sheet
+5. test whether player understand and able to perform all functions that controls player, understand how to move shoot and interact with the door.
+6. test whether multiple ghost level are bug free, without any bug due to the multiple ghost.
+
 
 Notes: 
 
@@ -230,4 +233,10 @@ Notes:
 3. need bigger texts
 4. player accident collide with the door collider and changed the scene
 5. game loop not that clear, need sucess or lose hint
+6. dont know how to interact with
 
+### Activity 2
+
+Our table come up with a specific strategy called object bubble diagram, we think it would be very helpful while we are on the planning stage. specifically, we break the game into different sections based on MVC model, separate a whole game loop in to different systems, visualization such as UI and animation and controllers that response the input. Create different bubble of objects which contains their attributes that will include in this game loop and separate them to diffferent section like system and visualization, etc. And then list every functions and features that will apply in this game, based on drawed object using arrows to build connection between each bubble and build a based logical structure of implement a specific fucntion. Personally, I like to sketch different scenes that inlcude in the game such as mainmenu, in game scene or end scene, etc so that i can also sketch my object bubble diagram based on sketches and MVC model.
+
+This planning strategy will affect my socpe. Because the bubble diagram is a visualization of the my whole game structure. It separate my whole game loop in to small systems and connection to different objects and sections. It helps me calculate the scale and time use for implement different features, by looking bubble diagram and arrows as connection to different objects you can briefly estimate the scale of the whole game, briefly clarify your whole workload amount, so that you can adjust the scale of your game based on your time planning. Also, those visualization for features as arrows helps you prioritize your main mechanics, clarify the side or less important mechanics, that helps you distinguish which feature could be blocked then affect your scope.
