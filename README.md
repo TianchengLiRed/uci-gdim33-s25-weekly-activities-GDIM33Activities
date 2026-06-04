@@ -214,7 +214,7 @@ New:
 7. ghost and objects glowing shader
 
 
-link: [SameGhostPlaytest4](https://tianchenglired.itch.io/sameghostfinaltest)
+Link: [SameGhostPlaytest4](https://tianchenglired.itch.io/sameghostfinaltest)
 
 Goals:
 
@@ -243,4 +243,4 @@ This planning strategy will affect my socpe. Because the bubble diagram is a vis
 
 ### Activity 3
 
-implemented a highlight shader for station interactive objects, fixed collider problem in the station scene, add a new tutorial sheet in each level, implemented that shader change its color based on amount of ghost's health.
+implemented a highlight shader and solved its bug for station interactive objects, fixed collider problem in the station scene, add a new tutorial sheet in each level, implemented that shader change its color based on amount of ghost's health.
