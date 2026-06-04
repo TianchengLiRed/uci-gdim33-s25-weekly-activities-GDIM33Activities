@@ -206,12 +206,28 @@ implemented the glowing effect on the ghost, the glowing color will change in ti
 New: 
 
 1. created AudioManager to control the SFX including walk, shoot, interact, talk, and button click.
-2. 3 more new level design, whiteboxes are replaced by 3D assets.
-3. multiple enemy
-4. blood UI, mag UI and mainmenu UI replaced by 3d assets and add more visualization
+2. 3 more new level design, whiteboxes are replaced by 3D assets and level selection function
+3. multiple enemies and Blood UI tracking
+4. magazine UI and mainmenu UI replaced by 3d assets and add more visualization
 5. Blood bar interaction banned
 6. gun trajectory fixed and visualization update
 7. ghost and objects glowing shader
 
 
 link: [SameGhostPlaytest4](https://tianchenglired.itch.io/sameghostfinaltest)
+
+Goals:
+
+1. test whether the AudioManager works well the whole game progression
+2. test whether ghosts blood visualization works normally
+3. test whether each level are bugs free and without any collider problems
+4. 
+
+Notes: 
+
+1. still hard to understand how to use the door
+2. theres a bug of collider in the station scene
+3. need bigger texts
+4. player accident collide with the door collider and changed the scene
+5. game loop not that clear, need sucess or lose hint
+
