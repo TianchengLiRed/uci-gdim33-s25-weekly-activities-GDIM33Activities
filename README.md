@@ -221,7 +221,7 @@ Goals:
 1. test whether the AudioManager works well the whole game progression
 2. test whether ghosts blood visualization works normally
 3. test whether each level are bugs free and without any collider problems
-4. 
+4. test whether player can understand the whole game progression and game loop based on the tutorial sheet
 
 Notes: 
 
