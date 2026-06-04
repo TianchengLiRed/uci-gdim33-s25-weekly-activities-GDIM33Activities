@@ -198,3 +198,20 @@ Game: PEAK
 <img width="678" height="407" alt="截屏2026-05-27 19 54 20" src="https://github.com/user-attachments/assets/fa6d2901-5d34-47ce-87d3-ad76f2189101" />
 
 implemented the glowing effect on the ghost, the glowing color will change in time from red to green.
+
+
+## W10
+### Activity 1 
+
+New: 
+
+1. created AudioManager to control the SFX including walk, shoot, interact, talk, and button click.
+2. 3 more new level design, whiteboxes are replaced by 3D assets.
+3. multiple enemy
+4. blood UI, mag UI and mainmenu UI replaced by 3d assets and add more visualization
+5. Blood bar interaction banned
+6. gun trajectory fixed and visualization update
+7. ghost and objects glowing shader
+
+
+link: [SameGhostPlaytest4](https://tianchenglired.itch.io/sameghostfinaltest)
